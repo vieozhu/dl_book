@@ -1,4 +1,5 @@
 # coding: utf-8
+# mini-batch随机梯度下降法
 import sys, os
 
 sys.path.append(os.pardir)  # 为了导入父目录的文件而进行的设定
