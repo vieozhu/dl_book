@@ -18,7 +18,7 @@ print()
 
 network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)  # 图像大小784，隐藏层神经元个数50，输出层10个数字
 
-iters_num = 10000  # 适当设定循环的次数10000
+iters_num = 10000  # 适当设定迭代的次数10000
 train_size = x_train.shape[0]
 batch_size = 100  # min_batch 100
 learning_rate = 0.1  # 0.1
@@ -30,7 +30,8 @@ test_acc_list = []
 
 iter_per_epoch = max(train_size / batch_size, 1)  # 每个epoch，遍历一遍所有数据（随机batch不一定遍历所有图片）
 
-for i in range(iters_num):
+for i in range(iters_num):  # n次迭代开始
+    # min_batch随机选取batch张图片，所以这些图片都被重复学习过(train_size / batch_size)次
     # np.random.choice从train_size中随机选取batch_size个，未指定概率则采用一致分布
     batch_mask = np.random.choice(train_size, batch_size)  # (100,)。得到的是下标
 
@@ -45,14 +46,17 @@ for i in range(iters_num):
     for key in ('W1', 'b1', 'W2', 'b2'):
         network.params[key] -= learning_rate * grad[key]
 
+    # 纪录损失函数
     loss = network.loss(x_batch, t_batch)
-    train_loss_list.append(loss)
+    train_loss_list.append(loss)  # 每次迭代都纪录损失函数
 
-    if i % iter_per_epoch == 0:
+    if i % iter_per_epoch == 0:  # 每个epoch计算一次准确率
         train_acc = network.accuracy(x_train, t_train)
         test_acc = network.accuracy(x_test, t_test)
+
         train_acc_list.append(train_acc)
         test_acc_list.append(test_acc)
+
         now_time = datetime.datetime.now().strftime('%H:%M:%S.%f')
         print(str(now_time) + " | train acc, test acc | " + str(train_acc) + ", " + str(test_acc))
 
@@ -61,9 +65,12 @@ markers = {'train': 'o', 'test': 's'}
 x = np.arange(len(train_acc_list))
 plt.plot(x, train_acc_list, label='train acc')
 plt.plot(x, test_acc_list, label='test acc', linestyle='--')
+# y = np.arange(len(train_loss_list))
+# plt.plot(y, train_loss_list, label='train_loss')
+
 plt.xlabel("epochs")
 plt.ylabel("accuracy")
-plt.ylim(0, 1.0)
+plt.ylim(0, 10.0)
 plt.legend(loc='lower right')
 plt.show()
 

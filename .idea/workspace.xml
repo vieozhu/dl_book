@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79f5a64a-f086-4776-8372-9a37689edc77" name="Default Changelist" comment="">
+    <list default="true" id="79f5a64a-f086-4776-8372-9a37689edc77" name="Default Changelist" comment="添加了时间纪录">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch04/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/train_neuralnet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,27 +52,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
-          <entry key="py" value="2" />
+          <entry key="md" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="42" />
-          <entry key="py" value="39" />
-          <entry key="txt" value="6" />
+          <entry key="py" value="580" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="39" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Python" value="580" />
         </counts>
       </usages-collector>
     </session>
@@ -92,8 +91,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch04/train_neuralnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1392">
-              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            <state relative-caret-position="192">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#36#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -331,24 +333,38 @@
       <option name="project" value="LOCAL" />
       <updated>1552218461400</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改了readme">
+      <created>1552219300244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552219300244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加了时间纪录">
+      <created>1552221682822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552221682822</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8170564" visible="true" weight="0.21092896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8170564" visible="true" weight="0.21092896" />
       <window_info id="Structure" order="1" sideWeight="0.1829436" side_tool="true" weight="0.22568306" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" weight="0.29578948" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.29578948" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32947367" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947367" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.2966457" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -367,12 +383,40 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了注释" />
+    <MESSAGE value="修改了readme" />
+    <MESSAGE value="添加了时间纪录" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了时间纪录" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ch01/hungry.py">
@@ -562,10 +606,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/two_layer_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1091" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch04/train_neuralnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        <state relative-caret-position="192">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#36#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
