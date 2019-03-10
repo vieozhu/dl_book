@@ -39,7 +39,7 @@ for i in range(iters_num):  # n次迭代开始
     t_batch = t_train[batch_mask]
 
     # 计算梯度
-    # grad = network.numerical_gradient(x_batch, t_batch)
+    grad = network.numerical_gradient(x_batch, t_batch)
     grad = network.gradient(x_batch, t_batch)
 
     # 更新参数
@@ -60,7 +60,7 @@ for i in range(iters_num):  # n次迭代开始
         now_time = datetime.datetime.now().strftime('%H:%M:%S.%f')
         print(str(now_time) + " | train acc, test acc | " + str(train_acc) + ", " + str(test_acc))
 
-# 绘制图形
+# 绘制图形(左边损失图像右边准确率图像)
 markers = {'train': 'o', 'test': 's'}
 x = np.arange(len(train_acc_list))
 plt.plot(x, train_acc_list, label='train acc')
@@ -70,13 +70,13 @@ plt.plot(x, test_acc_list, label='test acc', linestyle='--')
 
 plt.xlabel("epochs")
 plt.ylabel("accuracy")
-plt.ylim(0, 10.0)
+plt.ylim(0, 1.0)
 plt.legend(loc='lower right')
 plt.show()
 
 # 结束时间
 end_time = datetime.datetime.now()
-total_time = (end_time - start_time).microseconds / 1000000
+total_time = (end_time - start_time).seconds
 print()
 print("end_time: " + str(end_time.strftime('%H:%M:%S.%f')))
-print("total_time: " + str(total_time) + " s")
+print("total_time: " + str(total_time) + "(s)")

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79f5a64a-f086-4776-8372-9a37689edc77" name="Default Changelist" comment="添加了时间纪录">
+    <list default="true" id="79f5a64a-f086-4776-8372-9a37689edc77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my_test/mnist_gradient_neuralnet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch04/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/train_neuralnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/two_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/two_layer_net.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,49 +55,79 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="3" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="42" />
-          <entry key="py" value="580" />
-          <entry key="txt" value="26" />
+          <entry key="py" value="2117" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="68" />
-          <entry key="Python" value="580" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="2117" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch04/two_layer_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch04/train_neuralnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="408">
+              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="e#36#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_test/mnist_gradient_neuralnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <marker date="1552227433754" expanded="true" signature="280:1384" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="364:365" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="364:373" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="657:661" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="1382:1384" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="1441:1446" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="1441:2314" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="1984:1992" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="1986:1988" ph="..." />
+                <marker date="1552227433754" expanded="true" signature="1986:1990" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="30" selection-end-line="38" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -130,8 +162,9 @@
         <option value="$PROJECT_DIR$/common/gradient.py" />
         <option value="$PROJECT_DIR$/ch04/gradient_simplenet.py" />
         <option value="$PROJECT_DIR$/common/functions.py" />
-        <option value="$PROJECT_DIR$/ch04/two_layer_net.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ch04/two_layer_net.py" />
+        <option value="$PROJECT_DIR$/my_test/mnist_gradient_neuralnet.py" />
         <option value="$PROJECT_DIR$/ch04/train_neuralnet.py" />
       </list>
     </option>
@@ -157,6 +190,16 @@
             <path>
               <item name="dl_book" type="b2602c69:ProjectViewProjectNode" />
               <item name="dl_book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl_book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl_book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dl_book" type="b2602c69:ProjectViewProjectNode" />
@@ -192,28 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_neuralnet">
-    <configuration name="gradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dl_book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/gradient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mnist_gradient_neuralnet">
     <configuration name="gradient_method (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dl_book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +270,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/gradient_simplenet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist_gradient_neuralnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dl_book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/mnist_gradient_neuralnet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,17 +344,17 @@
     <list>
       <item itemvalue="Python.gradient_method (1)" />
       <item itemvalue="Python.gradient_simplenet" />
-      <item itemvalue="Python.gradient" />
       <item itemvalue="Python.train_neuralnet" />
       <item itemvalue="Python.two_layer_net" />
+      <item itemvalue="Python.mnist_gradient_neuralnet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mnist_gradient_neuralnet" />
         <item itemvalue="Python.train_neuralnet" />
-        <item itemvalue="Python.gradient_method (1)" />
         <item itemvalue="Python.two_layer_net" />
+        <item itemvalue="Python.gradient_method (1)" />
         <item itemvalue="Python.gradient_simplenet" />
-        <item itemvalue="Python.gradient" />
       </list>
     </recent_temporary>
   </component>
@@ -347,19 +390,26 @@
       <option name="project" value="LOCAL" />
       <updated>1552221682822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加注释">
+      <created>1552222791960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552222791960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8170564" visible="true" weight="0.21092896" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8170564" visible="true" weight="0.21092896" />
       <window_info id="Structure" order="1" sideWeight="0.1829436" side_tool="true" weight="0.22568306" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.29578948" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.29578948" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,16 +466,10 @@
     <MESSAGE value="添加了注释" />
     <MESSAGE value="修改了readme" />
     <MESSAGE value="添加了时间纪录" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了时间纪录" />
+    <MESSAGE value="添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch01/hungry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/layers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -441,13 +485,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_test/relu.py" />
-    <entry file="file://$PROJECT_DIR$/ch01/simple_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_test/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1319">
@@ -526,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch01/img_show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch04/gradient_1d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -554,27 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch01/sin_cos_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/gradient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_test/gradient_method.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -592,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/two_layer_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -611,13 +613,90 @@
         <state relative-caret-position="-1091" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/sin_cos_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/simple_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/sin_graph.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/man.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/img_show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/hungry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02/and_gate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="30" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/mnist_gradient_neuralnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1552227433754" expanded="true" signature="280:1384" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="364:365" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="364:373" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="657:661" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="1382:1384" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="1441:1446" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="1441:2314" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="1984:1992" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="1986:1988" ph="..." />
+            <marker date="1552227433754" expanded="true" signature="1986:1990" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch04/train_neuralnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="408">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="e#36#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/two_layer_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
         </state>
       </provider>
     </entry>

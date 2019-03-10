@@ -8,13 +8,12 @@ from common.gradient import numerical_gradient
 
 
 class TwoLayerNet:
-
     def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):
         """
         :param input_size: 输入层神经元数
         :param hidden_size: 隐藏层神经元数
         :param output_size: 输出层神经元数
-        :param weight_init_std: 初始步长
+        :param weight_init_std: 减小高斯生成的权重参数，实验表明缩小100倍能提升准确率
         """
         # 自定义初始化权重,采用符合高斯分布的随机数进行初始化
         self.params = {}
