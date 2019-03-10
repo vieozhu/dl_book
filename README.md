@@ -37,6 +37,12 @@ $ cd ../ch05
 $ python train_nueralnet.py
 ```
 
+## 学习测试
+```
+my_test目录为学习测试文件
+
+```
+
 ## 使用许可
 
 本源代码使用[MIT许可协议](http://www.opensource.org/licenses/MIT)。
