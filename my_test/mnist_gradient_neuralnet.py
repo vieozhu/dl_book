@@ -20,6 +20,39 @@ class TwoLayerNet:
         self.params['W2'] = np.random.rand(hidden_size, output_size)
         self.params['b2'] = np.zeros(output_size)
 
+    def cross_entropy_error(self,y,t):
+        """交叉熵损失
+        :param y:
+        :param t:
+        :return:
+        """
+
+
+    def loss(self, x, t):
+        # 定义损失函数
+        y = self.predict(x)
+        # 计算交叉熵损失函数
+        return self.cross_entropy_error(y, t)
+
+    def forward_gradient(self, x, t):
+        """向前梯度
+        :param x: 传入待训练图像
+        :param t: 图像标签
+        :return: 返回基于x，t训练得到的参数梯度
+        """
+
+        # 计算各个参数的梯度
+        loss_W = lambda W: self.loss(x, t)
+
+        # 计算梯度
+        grads = {}
+        grads['W1'] = self.numerical_gradient(loss_W, self.params['W1'])
+        grads['W2'] = self.numerical_gradient(loss_W, self.params['W2'])
+        grads['b1'] = self.numerical_gradient(loss_W, self.params['b1'])
+        grads['b1'] = self.numerical_gradient(loss_W, self.params['b2'])
+
+        return grads
+
     def numerical_gradient(f, x):
         h = 1e-4  # 0.0001
         grad = np.zeros_like(x)
@@ -75,8 +108,8 @@ def train_neuralnet():
             x_batch = x_train[batch_mask]
             t_batch = t_train[batch_mask]
 
-            #计算梯度
-            grad = network.numerical_gradient()
+            # 计算梯度
+            grad = network.gradient()
 
     run()
 
