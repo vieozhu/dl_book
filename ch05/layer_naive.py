@@ -1,14 +1,14 @@
 # coding: utf-8
 
 
-class MulLayer:
+class MulLayer:  # 乘法
     def __init__(self):
         self.x = None
         self.y = None
 
     def forward(self, x, y):
         self.x = x
-        self.y = y                
+        self.y = y
         out = x * y
 
         return out
@@ -20,7 +20,7 @@ class MulLayer:
         return dx, dy
 
 
-class AddLayer:
+class AddLayer:  # 加法
     def __init__(self):
         pass
 
