@@ -45,7 +45,7 @@ class Affine:
         self.x = None
         self.original_x_shape = None
         # 权重和偏置参数的导数
-        self.dW = None
+        self.dW = None  # 在TwoLayerNet:gradient:grads处调用了，返回dw，db
         self.db = None
 
     def forward(self, x):
